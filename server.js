@@ -17,7 +17,7 @@ app.use('/property',propertyroute)
 app.use('/like',likeroute)
 
 
-mongoose.connect('mongodb+srv://manikchadha:1234@cluster0.wuartuc.mongodb.net/presidio?retryWrites=true&w=majority&appName=Cluster0').then(() => {
+mongoose.connect('mongodb+srv://admin:sunsetwest1234RRR@royoapi.3qmdrjq.mongodb.net/presidio?retryWrites=true&w=majority&appName=RoyoApi').then(() => {
   console.log('db connected');
   app.listen(8080, () => console.log('server running successfully'));
 });
